@@ -1,0 +1,84 @@
+.swiper-wrapper{
+    height: auto; 
+    padding:  3rem 0;
+}
+
+.swiper-slide{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; 
+}
+
+.deals2Container .swiper-slide{
+  @apply w-[50%];
+}
+
+.swiper-slide.swiper-slide-active,
+.swiper-slide.swiper-slide-next{
+  margin-right: 0 !important;
+}
+
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(18, 34, 35, 0.2) !important;
+    opacity: 1 !important;
+}   
+
+ 
+.swiper-pagination-bullet-active {
+    background: black !important; 
+    
+    position: relative; 
+    margin: 0 2rem !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    height: 15px !important;
+    width: 15px !important; 
+}
+
+.deals2 .swiper-pagination-bullet-active{
+  background: white !important; 
+}
+
+.swiper-pagination-bullet-active::before,
+.swiper-pagination-bullet-active::after{
+  content: "";
+  position: absolute;
+
+  height: 20px;
+  width: 2px;
+  top: -.1rem;
+
+  background-color: #12222333;
+}
+
+.swiper-pagination-bullet-active::before{ 
+  right: -1.2rem; 
+}
+  
+
+.swiper-pagination-bullet-active::after{ 
+    left: -1.2rem; 
+}
+  
+
+@media screen and (min-width:1024px) {
+   .swiper-slide{ 
+    /* width: 33.33% !important; */
+   }
+}
+
+@media screen and (max-width:1024px) {
+   .swiper-slide{
+    /* margin-right: 0 !important; */
+    width: 50% !important; 
+   }
+}
