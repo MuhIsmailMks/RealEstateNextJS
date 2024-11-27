@@ -854,15 +854,30 @@ export default function Home() {
         <div className="w-[90%] lg:w-[850px] flex_col_center mt-[100px] gap-6">
            
 
-          <FaqContainer question={"What methods of payments are supported?"} answer={"Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel."}/>
+          <FaqContainer question={"What methods of payments are supported?"} answer={`
+            We accept a variety of payment methods to ensure convenience and flexibility for our clients. These include: 
+            1. Bank Transfer: Secure and reliable, ideal for larger transactions.
+            2. Credit and Debit Cards: Widely accepted for smaller payments, such as deposits or service fees.
+            3. Certified Check or Bank Draft: Common for initial payments and final settlements.
+            4. Cash Payment: Accepted for certain smaller fees (where permitted by law).
+            `}/>
 
-          <FaqContainer question={"Can I cancel at anytime?"} answer={"Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel."}/>
+          <FaqContainer question={"Can I cancel at anytime?"} answer={`
+            Cancellation policies depend on the type of service or agreement you have with us:
+            For Service Agreements: You can request cancellation at any time. However, please note that fees for services already rendered may apply.
+            For Real Estate Transactions: Once a contract is signed (e.g., purchase or lease agreements), cancellation is subject to the terms outlined in that agreement. Some contracts may include penalties or conditions for cancellation.
+            For Subscriptions or Property Listings: You can cancel these services anytime, and we’ll assist you with the process. Refunds, if applicable, will follow the terms stated in our agreement.
+`}/>
 
-          <FaqContainer question={"How do I get a receipt for my purchase?"} answer={"Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel."}/>
+          <FaqContainer question={"How do I get a receipt for my purchase?"} answer={`Once your purchase is completed, a receipt will be automatically sent to the email address you provided during checkout. If you didn’t receive it, please check your spam or junk folder. You can also download a copy of your receipt from your account dashboard under the "Purchase History" section. For further assistance, feel free to contact our support team.`}/>
 
-          <FaqContainer question={"Which license do I need?"} answer={"Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel."}/>
+          <FaqContainer question={"Which license do I need?"} answer={`
+            The type of license you need depends on how you plan to use the product:
+            Personal Use: Choose the standard license for individual projects or non-commercial purposes.
+            Business or Commercial Use: Select the extended license, which covers projects intended for resale or public distribution.
+            Exclusive Use: Contact us if you require an exclusive license for unique rights.`}/>
 
-          <FaqContainer question={"How do I get access to a theme I purchased?"} answer={"Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel."}/>
+          <FaqContainer question={"How do I get access to a theme I purchased?"} answer={`After completing your purchase, you’ll receive a download link in your email confirmation. Alternatively, you can access your purchased themes anytime by logging into your account and navigating to the "Downloads" section. If you encounter any issues, our support team is available to assist you promptly.`}/>
 
         </div>
 
