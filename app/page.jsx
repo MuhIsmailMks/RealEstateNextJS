@@ -80,7 +80,7 @@ export default function Home() {
 
     <main className="w-full h-auto relative flex flex-col items-center">
       
-      <BackToTopButton />
+    <BackToTopButton />
      
      {/* hero and navbar */}
       <section className="hero bg-[#1A1A1A] flex flex-col items-center h-auto ">
