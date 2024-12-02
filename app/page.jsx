@@ -1063,7 +1063,7 @@ export default function Home() {
           
             <div className="icon h-full flex_center">
               
-              <img src='/icons/googleStore.svg' alt="" className="h-[50%] w-auto object-contain"/>
+              <img src='/icons/googleStore.svg' alt="googleStoreIcon" className="h-[50%] w-auto object-contain"/>
             </div>
 
             <span className="h-[50%] w-[0.2px] bg-[#ffffff3d]"></span>
