@@ -215,7 +215,7 @@ const SocialLink = ({links,icons,alt}) => {
 
 const FooterLink = ({link,text}) => {
   return ( 
-    <a href={`#${link}`} className="text-white text-[13px] min-[1500px]:text-[15px]">{text}</a>
+    <a href={`#${link}`} className="text-white text-[13px] min-[1500px]:text-[15px] hover:underline">{text}</a>
   )
 }
 
