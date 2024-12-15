@@ -47,8 +47,7 @@ function BackToTopButton() {
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
-
-  // Fungsi untuk scroll ke atas
+ 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
