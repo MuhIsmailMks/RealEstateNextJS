@@ -1,9 +1,5 @@
 'use client'
 
-// untuk hosting https://chatgpt.com/c/673fe638-a834-8011-9c82-ae478ba39f37
-
-// design https://www.figma.com/design/wDqkuMqPNtsFSGaoyWvTaV/FigmaToNext?node-id=0-1&t=DKAGhkqvtXsZdb8M-0
-
 import React, {useEffect, useState} from "react";
  
 
