@@ -861,7 +861,6 @@ export default function Home() {
       {/* links container*/}
       <div className="w-full flex justify-center lg:justify-between flex-wrap gap-4 lg:gap-0">
 
-
         {/* contact form */}
         <div className=" w-full md:w-[300px] min-[1500px]:w-[400px] flex_itemsStartColmn gap-5">
           
