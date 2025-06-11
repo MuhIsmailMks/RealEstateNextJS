@@ -2,7 +2,6 @@
 
 import React, {useEffect, useState} from "react";
  
-
 import Image from "next/image"; 
 import Navbar from "./components/Navbar";   
 import Hero from "./components/Hero";
@@ -226,7 +225,7 @@ export default function Home() {
      <section className="h-auto flex_col_center gap-10  ">
       
         {/* top section */}
-        <div className="title relative flex items-end justify-between gap-3 text-center lg:text-left px-4 w-[95%] lg:w-[90%] max-w-[1700px]  max-lg:flex-col max-lg:items-center max-lg:gap-4">
+        <div className="title relative flex items-end justify-between gap-3 text-center lg:text-left px-4 w-[95%] lg:w-[90%] max-w-[1700px] max-lg:flex-col max-lg:items-center max-lg:gap-4">
           
           {/* title */}
             <div className="flex flex-col max-lg:gap-4">
@@ -296,7 +295,7 @@ export default function Home() {
      <section className="w-full flex_center  flex-col gap-20">
 
       {/* top section and title*/}
-      <div className="title relative flex items-end justify-between gap-3 text-center lg:text-left px-4 w-[95%] lg:w-[90%] max-w-[1700px]  max-lg:flex-col max-lg:items-center max-lg:gap-4">
+      <div className="title relative flex items-end justify-between gap-3 text-center lg:text-left px-4 w-[95%] lg:w-[90%] max-w-[1700px] max-lg:flex-col max-lg:items-center max-lg:gap-4">
         
         {/* title */}
           <div className="flex flex-col max-lg:gap-4">
@@ -506,10 +505,10 @@ export default function Home() {
      </section>
 
       {/* deals */}
-      <section className="h-auto flex_col_center gap-10  bg-[#1f4b43] text-white py-10 lg:py-36">
+      <section className="h-auto flex_col_center gap-10 bg-[#1f4b43] text-white py-10 lg:py-36">
       
       {/* top section */}
-      <div className="title relative flex items-end justify-between gap-3 text-center lg:text-left px-4 w-[95%] lg:w-[90%] max-w-[1700px]  max-lg:flex-col max-lg:items-center max-lg:gap-4">
+      <div className="title relative flex items-end justify-between gap-3 text-center lg:text-left px-4 w-[95%] lg:w-[90%] max-w-[1700px] max-lg:flex-col max-lg:items-center max-lg:gap-4">
         
         {/* title */}
           <div className="flex flex-col max-lg:gap-4">
