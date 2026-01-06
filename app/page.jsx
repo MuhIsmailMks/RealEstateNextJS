@@ -65,6 +65,9 @@ export default function Home() {
     <main className="w-full h-auto relative flex flex-col items-center">
       
     <BackToTopButton />
+    
+        {/* navbar */}
+        <Navbar/> 
      
      {/* hero and navbar */}
       <section className="hero bg-[#1A1A1A] flex flex-col items-center h-auto ">
@@ -72,8 +75,6 @@ export default function Home() {
         {/* bg gradient */}
         <span className="z-0 absolute hero_gradient left-[10%] top-[10%] w-[100px] h-[100px] rounded-full"></span>
 
-        {/* navbar */}
-        <Navbar/> 
 
         {/* hero */}
         <Hero/> 
@@ -99,8 +100,8 @@ export default function Home() {
           <Image
                 src="/icons/howWork1.svg"
                 alt="Logo"
-                width={0}  
-                height={0} 
+                width={20}  
+                height={20} 
                 className='object-contain w-[40%]  h-auto'
             />
           </div>
@@ -118,8 +119,8 @@ export default function Home() {
           <Image
                 src="/icons/howWork2.svg"
                 alt="Logo"
-                width={0}  
-                height={0} 
+                width={20}  
+                height={20} 
                 className='object-contain w-[40%]  h-auto'
             />
           </div>
@@ -137,8 +138,8 @@ export default function Home() {
           <Image
                 src="/icons/howWork3.svg"
                 alt="Logo"
-                width={0}  
-                height={0} 
+                width={20}  
+                height={20} 
                 className='object-contain w-[40%]  h-auto'
             />
           </div>
@@ -173,8 +174,8 @@ export default function Home() {
             <Image
                 src="icons/arrow.svg"
                 alt="arrow"
-                width={0}  
-                height={0} 
+                width={20}  
+                height={20} 
                 className='object-contain w-[20px] h-auto'
             />
 
@@ -240,8 +241,8 @@ export default function Home() {
               <Image
                   src="icons/arrow.svg"
                   alt="arrow"
-                  width={0}  
-                  height={0} 
+                  width={20}  
+                  height={20} 
                   className='object-contain w-[20px] h-auto'
               />
 
@@ -310,8 +311,8 @@ export default function Home() {
             <Image
                 src="icons/arrow.svg"
                 alt="arrow"
-                width={0}  
-                height={0} 
+                width={20}  
+                height={20} 
                 className='object-contain w-[20px] h-auto'
             />
 
@@ -523,8 +524,8 @@ export default function Home() {
             <Image
                 src="icons/arrow_white.svg"
                 alt="arrow"
-                width={0}  
-                height={0} 
+                width={20}  
+                height={20} 
                 className='object-contain w-[20px] h-auto'
             />
 
@@ -680,8 +681,8 @@ export default function Home() {
           <Image
                 src="icons/arrow.svg"
                 alt="arrow"
-                width={0}  
-                height={0} 
+                width={15}  
+                height={15} 
                 className='object-contain w-[15px] h-auto'
             />
         </button>
@@ -808,8 +809,8 @@ export default function Home() {
           <Image
                 src="icons/arrow.svg"
                 alt="arrow"
-                width={0}  
-                height={0} 
+                width={15}  
+                height={15} 
                 className='object-contain w-[15px] h-auto'
             />
         </button>
@@ -876,8 +877,8 @@ export default function Home() {
               <Image
                 src="icons/arrow_white.svg"
                 alt="arrow"
-                width={0}  
-                height={0} 
+                width={15}  
+                height={15} 
                 className='object-contain w-[15px] h-auto'
             />
 
@@ -951,10 +952,9 @@ export default function Home() {
           <p className="text-[16px] min-[1600px]:text-[19px] text-[#ffffff78]">Get the app</p>
 
           {/* app links */}
-          <a href="https://www.apple.com/store" target="_blank" className="app duration-200 hover:scale-90 flex_center relative rounded-lg bg-[#ffffff28] w-[50%] min-w-[170px] md:w-[180px] min-[1500px]:w-[210px] h-[58px] min-[1500px]:h-[63px]  gap-4">
+          <a href="https://www.apple.com/store" target="_blank" className="app duration-200 hover:opacity-90 flex_center relative rounded-lg bg-[#ffffff28] w-[50%] min-w-[170px] md:w-[180px] min-[1500px]:w-[210px] h-[58px] min-[1500px]:h-[63px]  gap-4">
           
             <div className="icon h-full flex_center">
-              
               <img src='/icons/appStore.svg' alt="appStoreIcon" className="h-[50%] w-auto object-contain"/>
             </div>
 
@@ -968,7 +968,7 @@ export default function Home() {
           </a> 
       
           {/* play store */}
-          <a href="https://play.google.com/store" target="_blank" className="app duration-200 hover:scale-90 flex_center relative rounded-lg bg-[#ffffff28] w-[50%] min-w-[170px] md:w-[180px] min-[1500px]:w-[210px] h-[58px] min-[1500px]:h-[63px]  gap-4">
+          <a href="https://play.google.com/store" target="_blank" className="app duration-200 hover:opacity-90 flex_center relative rounded-lg bg-[#ffffff28] w-[50%] min-w-[170px] md:w-[180px] min-[1500px]:w-[210px] h-[58px] min-[1500px]:h-[63px]  gap-4">
           
             <div className="icon h-full flex_center">
               

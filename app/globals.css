@@ -8,9 +8,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --primary_color:#e7c873;
-  --secondary_color:#e7c873;
-  --text:#f0f0f0;
+  --primary_color: #e7c873;
+  --secondary_color: #e7c873;
+  --text: #f0f0f0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,37 +21,37 @@
   }
 }
 
-html{
-  scroll-behavior: smooth;  
+html {
+  scroll-behavior: smooth;
 }
 
-body { 
-    font-family: "Roboto", sans-serif;
-    background-color: rgba(249, 249, 249, 1);
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(249, 249, 249, 1);
 }
 
-.bg_secondary{
+.bg_secondary {
   background-color: var(--secondary_color);
 }
- 
-section{
+
+section {
   position: relative;
-  width: 100%; 
+  width: 100%;
   max-width: 100%;
 }
 
-section:not(.hero){ 
-  margin: 8rem 0; 
+section:not(.hero) {
+  margin: 8rem 0;
 }
 
-.hero_gradient{
+.hero_gradient {
   box-shadow: 0px 4px 76.7px 289px rgba(45, 42, 35, 1);
   background-color: rgba(45, 42, 35, 1);
   backdrop-filter: blur(4em);
   opacity: 0.6;
 }
 
-.minIcon{
+.minIcon {
   transition: .15s ease-in-out;
   -webkit-transition: .15s ease-in-out;
   -moz-transition: .15s ease-in-out;
@@ -59,7 +59,7 @@ section:not(.hero){
   -o-transition: .15s ease-in-out;
 }
 
-.minIcon.nonActive{
+.minIcon.nonActive {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -67,7 +67,7 @@ section:not(.hero){
   -o-transform: rotate(90deg);
 }
 
-.answer{
+.answer {
   display: none;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -76,32 +76,32 @@ section:not(.hero){
   -o-transition: .2s ease-in-out;
 }
 
-.answer.active{
+.answer.active {
   display: block
 }
 
-.emailForm::placeholder{
+.emailForm::placeholder {
   color: white
 }
 
 @layer utilities {
-  .flex_center{
+  .flex_center {
     @apply flex justify-center items-center;
   }
 
-  .flex_between{
+  .flex_between {
     @apply flex justify-between items-center;
   }
 
-  .flex_items{
+  .flex_items {
     @apply flex items-center;
   }
 
-  .flex_itemsStartColmn{
-    @apply flex flex-col items-start; 
+  .flex_itemsStartColmn {
+    @apply flex flex-col items-start;
   }
 
-  .flex_col_center{
+  .flex_col_center {
     @apply flex justify-center items-center flex-col;
   }
 
@@ -109,16 +109,16 @@ section:not(.hero){
     text-wrap: balance;
   }
 
-  .black_btn{
-    @apply  duration-200 hover:bg-white hover:text-black;
+  .black_btn {
+    @apply duration-200 hover:bg-white hover:text-black;
   }
 
   .font_super_small {
-    @apply text-[13px] min-[1700px]:text-[15px]; 
-}
+    @apply text-[13px] min-[1700px]:text-[15px];
+  }
 
   .font_small {
-    @apply text-[15px]; 
+    @apply text-[15px];
   }
 
   .font_medium {
@@ -126,7 +126,7 @@ section:not(.hero){
   }
 
   .font_normal {
-    @apply text-[17px]; 
+    @apply text-[17px];
   }
 
   .font_large {
@@ -143,22 +143,22 @@ section:not(.hero){
 
 }
 
-ul li:hover a{
-  color: rgb(201, 201, 201); 
+ul li:hover a {
+  color: rgb(201, 201, 201);
 }
 
-.menu_links{
+.menu_links {
   height: 0;
   overflow: hidden;
 }
 
-.menu_links.active{
-  height: 450px; 
+.menu_links.active {
+  height: 480px;
 }
 
-/* menu button */ 
+/* menu button */
 .menu {
-  transform: scale(0); 
+  transform: scale(0);
 }
 
 .menu-button {
@@ -209,34 +209,35 @@ ul li:hover a{
 .menu-button.active span:nth-child(3) {
   transform: rotate(-45deg);
   bottom: 1rem;
-} 
+}
 
 @media screen and (min-width: 1024px) {
+
   .menu_links,
-  .menu_links.active{
-    height: auto; 
+  .menu_links.active {
+    height: auto;
   }
 }
 
 @media screen and (max-width: 1500px) {
-  section:not(.hero){ 
+  section:not(.hero) {
     margin: 8rem 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .menu-button {
-    display: flex;  
+    display: flex;
   }
 
-  section:not(.hero){ 
+  section:not(.hero) {
     margin: 7rem 0;
   }
- 
+
 }
 
 @media screen and (max-width: 500px) {
-  section:not(.hero){ 
+  section:not(.hero) {
     margin: 4rem 0;
   }
 
@@ -253,6 +254,3 @@ ul li:hover a{
     bottom: 0.7rem;
   }
 }
-
-
- 
