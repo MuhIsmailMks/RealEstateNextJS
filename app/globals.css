@@ -67,18 +67,16 @@ section:not(.hero) {
   -o-transform: rotate(90deg);
 }
 
-.answer {
-  display: none;
+.answer { 
+  /* height: 0px; */
+  overflow: hidden;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
   -ms-transition: .2s ease-in-out;
   -o-transition: .2s ease-in-out;
 }
-
-.answer.active {
-  display: block
-}
+ 
 
 .emailForm::placeholder {
   color: white
@@ -221,7 +219,7 @@ ul li:hover a {
 
 @media screen and (max-width: 1500px) {
   section:not(.hero) {
-    margin: 8rem 0;
+    margin: 5rem 0;
   }
 }
 
@@ -231,7 +229,7 @@ ul li:hover a {
   }
 
   section:not(.hero) {
-    margin: 7rem 0;
+    margin: 4rem 0;
   }
 
 }

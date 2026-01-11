@@ -1,6 +1,5 @@
-import react, {useState} from 'react';
-import Image from 'next/image';  
-import {Swiper, SwiperSlide} from 'swiper/react';
+import react, {useState, useEffect, useRef} from 'react';
+import Image from 'next/image';   
 // import Swiper from 'swiper'; 
 import 'swiper/css' 
 
@@ -163,41 +162,50 @@ const AboutCities = ({properties,cities}) => {
     </div>
   )
 }
+ 
 
-const FaqContainer = ({question,answer}) => {
+const FaqContainer = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const toggleAnswer = () => {
-    setIsOpen(!isOpen);
-  };
+  const answerRef = useRef(null);
 
   return (
     <div className="faq h-auto w-full flex_col_center gap-4">
 
-      <div className="btnFaq w-full flex_between">
-        
-        <p className="font_large font-bold">
-       {question}
-        </p>
+      <div className="btnFaq w-full flex_between relative">
+        <p className="font_large font-bold">{question}</p>
 
-        <button onClick={toggleAnswer} className="iconFaq flex_center cursor-pointer h-[50px]">
-
+        <button className="iconFaq flex_center cursor-pointer h-[50px]">
           <span className="w-[30px] h-[3px] bg-black relative"></span>
-          <span className={`minIcon w-[3px] h-[30px] bg-black absolute duration-350 ${isOpen ? 'nonActive' : ''}`}></span>
-
+          <span
+            className={`minIcon w-[3px] h-[30px] bg-black absolute duration-300 ${
+              isOpen ? "nonActive" : ""
+            }`}
+          ></span>
         </button>
 
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="absolute w-full h-full left-0 top-0"
+        ></button>
       </div>
 
-      <div className={`answer ${isOpen ? 'active' : ''}`}>
-
+      <div
+        ref={answerRef}
+        className="answer"
+        style={{
+          maxHeight: isOpen
+            ? `${answerRef.current?.scrollHeight}px`
+            : "0px",
+        }}
+      >
         <p className="font_small">{answer}</p>
-        
       </div>
 
     </div>
-  )
-}
+  );
+};
+ 
+
 
 const SocialLink = ({links,icons,alt}) => {
   return (

@@ -567,7 +567,7 @@ export default function Home() {
             Meet Our Team Of Experts
           </h2>
           <p className="font_normal sub_title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Dedicated Professionals You Can Trust
           </p>
         </div>
 
@@ -670,9 +670,7 @@ export default function Home() {
             </div>
 
             <p className="font_medium">
-              Pellentesque egestas elementum egestas faucibus sem. Velit nunc
-              egestas ut morbi. Leo diam diam nibh eget fermentum massa pretium.
-              Mi mauris nulla ac dictum ut mauris non.
+              We combine deep market knowledge, trusted professionals, and a customer-first approach to deliver seamless property experiences from discovery to deal closing.
             </p>
 
             <div className="w-full flex justify-between  ">
@@ -741,11 +739,7 @@ export default function Home() {
 
             <div className="w-full ">
               <p className="text-white">
-                {" "}
-                Searches for multiplexes, property comparisons, and the loan
-                estimator. Works great. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dores.
+                JustHome made my property search incredibly simple and efficient. The comparisons, detailed listings, and helpful tools saved me time and helped me make the right decision with confidence.
               </p>
             </div>
           </div>
@@ -770,7 +764,7 @@ export default function Home() {
             Hove More Question?
           </h2>
           <p className="font_normal sub_title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            We’re Here to Help You Every Step of the Way
           </p>
         </div>
 
@@ -826,7 +820,7 @@ export default function Home() {
             Become a Real Estate Agent
           </h2>
           <p className="font_normal sub_title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Grow Your Career With JustHome
           </p>
         </div>
 
